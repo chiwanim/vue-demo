@@ -5,14 +5,9 @@ Vue.use(Router)
 
 /* Layout */
 import Layout from '@/layout'
-import HelloWorld from '@/components/helloworld'
 // import { component } from 'vue/types/umd'
 
 export const constantRoutes = [
-  // {
-  //   path: '/',
-  //   component: HelloWorld
-  // },
   {
     path: '/redirect',
     component: Layout,
@@ -52,6 +47,12 @@ export const constantRoutes = [
       }
     ]
   },
+]
+
+
+export const asyncRoutes = [
+
+
 ]
 
 const createRouter = () => new Router({
