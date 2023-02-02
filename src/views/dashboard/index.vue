@@ -7,7 +7,7 @@
 <script>
   export default {
     created() {
-      console.log(132)
+      console.log(1321)
     }
   }
 </script>
